@@ -1,0 +1,60 @@
+body{
+    background-color: #EEEEEE;
+}
+.heading{
+    margin: 5% auto;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #CC9544;
+}
+.item{
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-bottom: 2%;
+    background-color: white;
+    border-radius: 7px;
+}
+.item-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+hr{
+    margin-top: 0;
+    margin: 0 4%;
+    background-color: #CC9544;
+}
+.icon{
+    margin-right: 5%;
+}
+i{
+    margin-top: 85%;
+    color: #CC9544;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 4%;
+    word-spacing: 3px;
+    padding-bottom: 3%;
+    color: #74959A;
+}
+.question{
+    padding:2%;
+    padding-left: 4%;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: bold;
+    color: #495371;
+}
+.ans{
+  display:none;
+}
+@media (max-width:800px)
+{
+    .item{
+        width: 93%;
+      margin: 0 auto;
+      margin-bottom: 4%;
+    }
+}
